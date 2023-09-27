@@ -22,6 +22,10 @@ const Banner = () => {
         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
     };
 
+    const handlesearchBtn =() => {
+console.log("Search");
+    }
+
 
     return (
         <div className="py-10 mb-16" style={bannerStyle}>
@@ -31,7 +35,7 @@ const Banner = () => {
            <div className="flex justify-center items-center my-10 relative">
            <input type="text" placeholder="Search" className="input w-full max-w-xs text-black" />
 
-           <button className="px-3 py-3 bg-[#FF444A] absolute left-[300px] md:left-[472px] lg:left-[790px] rounded-r-lg text-white font-semibold">Search</button>
+           <button onClick={handlesearchBtn} className="px-3 py-3 bg-[#FF444A] absolute left-[300px] md:left-[472px] lg:left-[790px] rounded-r-lg text-white font-semibold">Search</button>
            </div>
            
         </div>
