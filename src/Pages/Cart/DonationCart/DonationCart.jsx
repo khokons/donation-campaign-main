@@ -42,7 +42,7 @@ const DonationCart = ({cart}) => {
         </figure>
       </div>
 
-      <div className="">
+      <div>
         <h2 className="text-4xl font-bold text-[#0B0B0B] py-6">{Title}</h2>
         <p>{Description}</p>
       </div>
