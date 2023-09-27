@@ -9,17 +9,17 @@ const Banner = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center', 
         backgroundRepeat: 'no-repeat', 
-        position: 'relative', // পজিশন রিলেটিভ সেট করতে
+        position: 'relative', 
 
     };
 
     const overlayStyle = {
-        position: 'absolute', // পজিশন অ্যাবসোল্যুট সেট করতে
+        position: 'absolute', 
         top: '0',
         left: '0',
         width: '100%',
         height: '100%',
-        backgroundColor: 'rgba(0, 0, 0, 0.6)', // ট্রান্সপ্যারেন্ট ব্যাকগ্রাউন্ড কালার
+        backgroundColor: 'rgba(0, 0, 0, 0.6)', 
     };
 
 
