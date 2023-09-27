@@ -9,7 +9,7 @@ const Cards = ({cards}) => {
     return (
         <div>
           
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
                 {
                     cards?.map(card => <Card key={card.id} card={card} ></Card>)
                 }
